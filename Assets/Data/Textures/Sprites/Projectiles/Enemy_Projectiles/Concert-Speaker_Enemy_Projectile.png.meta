@@ -1,0 +1,697 @@
+fileFormatVersion: 2
+guid: e0ce3ec95f1c6f04b9a821dc806bf790
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5619207937239830141
+    second: Concert-Speaker_Enemy_Projectile 0
+  - first:
+      213: -83771511909332082
+    second: Concert-Speaker_Enemy_Projectile 1
+  - first:
+      213: -6880758943316141423
+    second: Concert-Speaker_Enemy_Projectile 2
+  - first:
+      213: -8126212023016487413
+    second: Concert-Speaker_Enemy_Projectile 3
+  - first:
+      213: 7148137732456104390
+    second: Concert-Speaker_Enemy_Projectile 4
+  - first:
+      213: 2812377933710309696
+    second: Concert-Speaker_Enemy_Projectile 5
+  - first:
+      213: -2863335965880044786
+    second: Concert-Speaker_Enemy_Projectile 6
+  - first:
+      213: 6326795706620442221
+    second: Concert-Speaker_Enemy_Projectile 7
+  - first:
+      213: -676816911238634060
+    second: Concert-Speaker_Enemy_Projectile 8
+  - first:
+      213: 347492634047658109
+    second: Concert-Speaker_Enemy_Projectile 9
+  - first:
+      213: 3402101633606196083
+    second: Concert-Speaker_Enemy_Projectile 10
+  - first:
+      213: -5885655632654501066
+    second: Concert-Speaker_Enemy_Projectile 11
+  - first:
+      213: -4204791071069810365
+    second: Concert-Speaker_Enemy_Projectile 12
+  - first:
+      213: 3953474195051360622
+    second: Concert-Speaker_Enemy_Projectile 13
+  - first:
+      213: -3510124413933428420
+    second: Concert-Speaker_Enemy_Projectile 14
+  - first:
+      213: 2193284487586748266
+    second: Concert-Speaker_Enemy_Projectile 15
+  - first:
+      213: -1187561802269938557
+    second: Concert-Speaker_Enemy_Projectile 16
+  - first:
+      213: 255663284531082371
+    second: Concert-Speaker_Enemy_Projectile 17
+  - first:
+      213: -1324225189530191531
+    second: Concert-Speaker_Enemy_Projectile 18
+  - first:
+      213: 1939665955853765228
+    second: Concert-Speaker_Enemy_Projectile 19
+  - first:
+      213: -455580227973551825
+    second: Concert-Speaker_Enemy_Projectile 20
+  - first:
+      213: -3917109463620339074
+    second: Concert-Speaker_Enemy_Projectile 21
+  - first:
+      213: -9002322370945041177
+    second: Concert-Speaker_Enemy_Projectile 22
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMasterTextureLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 4
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 128
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e4c3ad8df6bfd40800000000000000
+      internalID: 5619207937239830141
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8bc856f04266def0800000000000000
+      internalID: -83771511909332082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19a9c866232a280a0800000000000000
+      internalID: -6880758943316141423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0608963835e93f80800000000000000
+      internalID: -8126212023016487413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c1cc9c2569433360800000000000000
+      internalID: 7148137732456104390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 5
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04933f084d2970720800000000000000
+      internalID: 2812377933710309696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e03be111c136348d0800000000000000
+      internalID: -2863335965880044786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d66f393ac2b4dc750800000000000000
+      internalID: 6326795706620442221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b5e4abea967b96f0800000000000000
+      internalID: -676816911238634060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 9
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d78b976a5ba82d400800000000000000
+      internalID: 347492634047658109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 10
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b9fd02961b63f20800000000000000
+      internalID: 3402101633606196083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 11
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63bf959b263f15ea0800000000000000
+      internalID: -5885655632654501066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 12
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 0
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 341562e7cc495a5c0800000000000000
+      internalID: -4204791071069810365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61b5b085df8dd630800000000000000
+      internalID: 3953474195051360622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3162166178894fc0800000000000000
+      internalID: -3510124413933428420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a679bf5fe9c107e10800000000000000
+      internalID: 2193284487586748266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 38ca0e235dee48fe0800000000000000
+      internalID: -1187561802269938557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 384b598176c4c8300800000000000000
+      internalID: 255663284531082371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 559bd67c4386f9de0800000000000000
+      internalID: -1324225189530191531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 19
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6a0599f8e31bea10800000000000000
+      internalID: 1939665955853765228
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f29e1f842347da9f0800000000000000
+      internalID: -455580227973551825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7ab69252b1a3a9c0800000000000000
+      internalID: -3917109463620339074
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Concert-Speaker_Enemy_Projectile 22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 64
+        width: 32
+        height: 32
+      alignment: 7
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ecb44eff73511380800000000000000
+      internalID: -9002322370945041177
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Concert-Speaker_Enemy_Projectile 15: 2193284487586748266
+      Concert-Speaker_Enemy_Projectile 4: 7148137732456104390
+      Concert-Speaker_Enemy_Projectile 22: -9002322370945041177
+      Concert-Speaker_Enemy_Projectile 0: 5619207937239830141
+      Concert-Speaker_Enemy_Projectile 21: -3917109463620339074
+      Concert-Speaker_Enemy_Projectile 18: -1324225189530191531
+      Concert-Speaker_Enemy_Projectile 14: -3510124413933428420
+      Concert-Speaker_Enemy_Projectile 3: -8126212023016487413
+      Concert-Speaker_Enemy_Projectile 12: -4204791071069810365
+      Concert-Speaker_Enemy_Projectile 13: 3953474195051360622
+      Concert-Speaker_Enemy_Projectile 5: 2812377933710309696
+      Concert-Speaker_Enemy_Projectile 6: -2863335965880044786
+      Concert-Speaker_Enemy_Projectile 19: 1939665955853765228
+      Concert-Speaker_Enemy_Projectile 11: -5885655632654501066
+      Concert-Speaker_Enemy_Projectile 1: -83771511909332082
+      Concert-Speaker_Enemy_Projectile 7: 6326795706620442221
+      Concert-Speaker_Enemy_Projectile 2: -6880758943316141423
+      Concert-Speaker_Enemy_Projectile 10: 3402101633606196083
+      Concert-Speaker_Enemy_Projectile 16: -1187561802269938557
+      Concert-Speaker_Enemy_Projectile 17: 255663284531082371
+      Concert-Speaker_Enemy_Projectile 8: -676816911238634060
+      Concert-Speaker_Enemy_Projectile 20: -455580227973551825
+      Concert-Speaker_Enemy_Projectile 9: 347492634047658109
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
