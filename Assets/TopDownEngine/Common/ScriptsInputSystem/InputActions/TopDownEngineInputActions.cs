@@ -154,6 +154,15 @@ namespace MoreMountains.TopDownEngine
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""CameraRotation"",
+                    ""type"": ""PassThrough"",
+                    ""id"": ""239ee3ca-17ea-4fb2-85ef-91f8046dfddb"",
+                    ""expectedControlType"": ""Axis"",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -182,7 +191,7 @@ namespace MoreMountains.TopDownEngine
                 {
                     ""name"": ""down"",
                     ""id"": ""f1c785e7-a3bf-4f5c-9d5a-2302a0b10975"",
-                    ""path"": ""<Keyboard>/b"",
+                    ""path"": ""<Keyboard>/s"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": ""Keyboard"",
@@ -475,6 +484,17 @@ namespace MoreMountains.TopDownEngine
                     ""action"": ""SecondaryMovement"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""77200925-45c4-4483-b584-d3255b060915"",
+                    ""path"": """",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Keyboard"",
+                    ""action"": ""CameraRotation"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -525,6 +545,7 @@ namespace MoreMountains.TopDownEngine
             m_PlayerControls_SwitchWeapon = m_PlayerControls.FindAction("SwitchWeapon", throwIfNotFound: true);
             m_PlayerControls_SwitchCharacter = m_PlayerControls.FindAction("SwitchCharacter", throwIfNotFound: true);
             m_PlayerControls_TimeControl = m_PlayerControls.FindAction("TimeControl", throwIfNotFound: true);
+            m_PlayerControls_CameraRotation = m_PlayerControls.FindAction("CameraRotation", throwIfNotFound: true);
         }
 
         public void Dispose()
@@ -598,6 +619,7 @@ namespace MoreMountains.TopDownEngine
         private readonly InputAction m_PlayerControls_SwitchWeapon;
         private readonly InputAction m_PlayerControls_SwitchCharacter;
         private readonly InputAction m_PlayerControls_TimeControl;
+        private readonly InputAction m_PlayerControls_CameraRotation;
         public struct PlayerControlsActions
         {
             private @TopDownEngineInputActions m_Wrapper;
@@ -616,6 +638,7 @@ namespace MoreMountains.TopDownEngine
             public InputAction @SwitchWeapon => m_Wrapper.m_PlayerControls_SwitchWeapon;
             public InputAction @SwitchCharacter => m_Wrapper.m_PlayerControls_SwitchCharacter;
             public InputAction @TimeControl => m_Wrapper.m_PlayerControls_TimeControl;
+            public InputAction @CameraRotation => m_Wrapper.m_PlayerControls_CameraRotation;
             public InputActionMap Get() { return m_Wrapper.m_PlayerControls; }
             public void Enable() { Get().Enable(); }
             public void Disable() { Get().Disable(); }
@@ -667,6 +690,9 @@ namespace MoreMountains.TopDownEngine
                     @TimeControl.started -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnTimeControl;
                     @TimeControl.performed -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnTimeControl;
                     @TimeControl.canceled -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnTimeControl;
+                    @CameraRotation.started -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnCameraRotation;
+                    @CameraRotation.performed -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnCameraRotation;
+                    @CameraRotation.canceled -= m_Wrapper.m_PlayerControlsActionsCallbackInterface.OnCameraRotation;
                 }
                 m_Wrapper.m_PlayerControlsActionsCallbackInterface = instance;
                 if (instance != null)
@@ -713,6 +739,9 @@ namespace MoreMountains.TopDownEngine
                     @TimeControl.started += instance.OnTimeControl;
                     @TimeControl.performed += instance.OnTimeControl;
                     @TimeControl.canceled += instance.OnTimeControl;
+                    @CameraRotation.started += instance.OnCameraRotation;
+                    @CameraRotation.performed += instance.OnCameraRotation;
+                    @CameraRotation.canceled += instance.OnCameraRotation;
                 }
             }
         }
@@ -751,6 +780,7 @@ namespace MoreMountains.TopDownEngine
             void OnSwitchWeapon(InputAction.CallbackContext context);
             void OnSwitchCharacter(InputAction.CallbackContext context);
             void OnTimeControl(InputAction.CallbackContext context);
+            void OnCameraRotation(InputAction.CallbackContext context);
         }
     }
 }
