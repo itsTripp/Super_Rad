@@ -5090,7 +5090,7 @@ MonoBehaviour:
   TriggerMode: 1
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 1.5
+  TimeBetweenUses: 1
   TimeBetweenUsesReleaseInterruption: 1
   UseBurstMode: 0
   BurstLength: 3
@@ -5142,13 +5142,14 @@ MonoBehaviour:
   Interruptable: 0
   Flipped: 0
   ProjectileSpawnOffset: {x: 1.85, y: 0.07, z: 0}
+  DefaultProjectileDirection: {x: 0, y: 0, z: 1}
   ProjectilesPerShot: 1
   SpawnTransforms: []
   SpawnTransformsMode: 1
   Spread: {x: 0, y: 0, z: 10}
   RotateWeaponOnSpread: 1
   RandomSpread: 1
-  SpawnPosition: {x: 41.85, y: -19.93, z: 0}
+  SpawnPosition: {x: 0.831, y: 0.073, z: 0}
   SpawnFeedbacks: []
   TestShootButton: 0
 --- !u!114 &114137986743622244
@@ -5234,7 +5235,7 @@ MonoBehaviour:
   TriggerMode: 1
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
-  TimeBetweenUses: 1
+  TimeBetweenUses: 0
   TimeBetweenUsesReleaseInterruption: 1
   UseBurstMode: 0
   BurstLength: 3
@@ -5255,19 +5256,20 @@ MonoBehaviour:
   WeaponUseTransform: {fileID: 0}
   LeftHandHandle: {fileID: 0}
   RightHandHandle: {fileID: 0}
-  ModifyMovementWhileAttacking: 0
-  MovementMultiplier: 0
+  ModifyMovementWhileAttacking: 1
+  MovementMultiplier: 0.5
   PreventAllMovementWhileInUse: 0
   PreventAllAimWhileInUse: 0
-  RecoilForce: 0
-  Animators: []
+  RecoilForce: 10
+  Animators:
+  - {fileID: 95036209968351816}
   PerformAnimatorSanityChecks: 0
   WeaponAnimationID: 0
   IdleAnimationParameter: 
   StartAnimationParameter: 
   DelayBeforeUseAnimationParameter: 
-  SingleUseAnimationParameter: 
-  UseAnimationParameter: 
+  SingleUseAnimationParameter: SingleUse
+  UseAnimationParameter: Shooting
   DelayBetweenUsesAnimationParameter: 
   StopAnimationParameter: 
   ReloadStartAnimationParameter: 
@@ -5281,14 +5283,14 @@ MonoBehaviour:
   WeaponStopMMFeedback: {fileID: 0}
   WeaponReloadMMFeedback: {fileID: 0}
   WeaponReloadNeededMMFeedback: {fileID: 0}
-  InitializeOnStart: 0
+  InitializeOnStart: 1
   Interruptable: 0
   Flipped: 0
   ProjectileSpawnOffset: {x: 0, y: 0, z: 0}
   Spread: {x: 0, y: 0, z: 0}
   RotateWeaponOnSpread: 0
-  RandomSpread: 1
-  SpawnPosition: {x: 40, y: -20, z: 0}
+  RandomSpread: 0
+  SpawnPosition: {x: -1.019, y: 0.003, z: 0}
   Mode: 0
   HitscanTargetLayers:
     serializedVersion: 2
@@ -5297,6 +5299,7 @@ MonoBehaviour:
   MinDamageCaused: 5
   MaxDamageCaused: 5
   DamageCausedInvincibilityDuration: 0.2
+  TypedDamages: []
   HitDamageable: {fileID: 0}
   DamageableImpactParticles: {fileID: 0}
   HitNonDamageable: {fileID: 0}
@@ -20141,10 +20144,14 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
   DurationMultiplier: 1
   DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
   CooldownDuration: 0
   InitialDelay: 0
+  CanPlay: 1
   CanPlayWhileAlreadyPlaying: 1
   ChanceToPlay: 100
   FeedbacksIntensity: 1
