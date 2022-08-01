@@ -5202,6 +5202,15 @@ MonoBehaviour:
   CameraTargetOffset: 0.3
   CameraTargetMaxDistance: 2
   CameraTargetSpeed: 5
+  MousePositionAction:
+    m_Name: Mouse Position
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 6b680228-e12b-4e97-aca7-14eb9e2d5362
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!114 &114251315345146356
 MonoBehaviour:
   m_ObjectHideFlags: 0
