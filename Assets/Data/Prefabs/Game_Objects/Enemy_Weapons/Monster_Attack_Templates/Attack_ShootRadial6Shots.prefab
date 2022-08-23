@@ -522,7 +522,7 @@ GameObject:
   - component: {fileID: 9163313444819912828}
   - component: {fileID: 9162990869332595874}
   m_Layer: 0
-  m_Name: Attack_ShootOrdinal
+  m_Name: Attack_ShootRadial6Shots
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -615,10 +615,10 @@ MonoBehaviour:
   Flipped: 0
   ProjectileSpawnOffset: {x: 0, y: 0.07, z: 0}
   DefaultProjectileDirection: {x: 0, y: 0, z: 1}
-  ProjectilesPerShot: 4
+  ProjectilesPerShot: 7
   SpawnTransforms: []
   SpawnTransformsMode: 1
-  Spread: {x: 0, y: 0, z: 130}
+  Spread: {x: 0, y: 0, z: 145}
   RotateWeaponOnSpread: 0
   RandomSpread: 0
   SpawnPosition: {x: 43.3129, y: -21.558784, z: 0}
@@ -639,7 +639,7 @@ MonoBehaviour:
   MutualizeWaitingPools: 1
   NestWaitingPool: 1
   NestUnderThis: 0
-  GameObjectToPool: {fileID: 1579859513670320, guid: 6587a20f34fca6645963838903f7dbae,
+  GameObjectToPool: {fileID: 1579859513670320, guid: cd8b5dc8f73281e4da632295c93a39af,
     type: 3}
   PoolSize: 20
   PoolCanExpand: 1
