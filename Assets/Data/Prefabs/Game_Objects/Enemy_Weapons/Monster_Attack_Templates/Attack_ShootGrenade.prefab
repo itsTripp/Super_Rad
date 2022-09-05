@@ -5147,7 +5147,7 @@ MonoBehaviour:
   Spread: {x: 0, y: 0, z: 10}
   RotateWeaponOnSpread: 1
   RandomSpread: 1
-  SpawnPosition: {x: 40.86642, y: -20.984594, z: 0}
+  SpawnPosition: {x: 43.694763, y: -21.881111, z: 0}
   SpawnFeedbacks: []
   TestShootButton: 0
 --- !u!114 &114137986743622244

@@ -9811,7 +9811,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4001341059962208}
   - component: {fileID: 50050392041868628}
-  - component: {fileID: 8617648886571333694}
+  - component: {fileID: -4615477743939549197}
   - component: {fileID: 210286107803106362}
   - component: {fileID: 114923167933730068}
   - component: {fileID: 114873785417298432}
@@ -9877,8 +9877,8 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
---- !u!58 &8617648886571333694
-CircleCollider2D:
+--- !u!70 &-4615477743939549197
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -9890,9 +9890,9 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0.24}
-  serializedVersion: 2
-  m_Radius: 0.3
+  m_Offset: {x: 0.04852295, y: 0.12623596}
+  m_Size: {x: 0.62623596, y: 1.3901901}
+  m_Direction: 0
 --- !u!210 &210286107803106362
 SortingGroup:
   m_ObjectHideFlags: 0
@@ -9987,6 +9987,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   FacingMode: 3
+  FacingBase: 0
   ModelShouldFlip: 0
   ModelFlipValueLeft: {x: -1, y: 1, z: 1}
   ModelFlipValueRight: {x: 1, y: 1, z: 1}
@@ -10079,6 +10080,7 @@ MonoBehaviour:
   BlockingMovementStates: 
   BlockingConditionStates: 
   DashMode: 1
+  DashSpace: 0
   DashDirection: {x: 1, y: 0, z: 0}
   DashDistance: 6
   DashDuration: 0.2
@@ -10172,6 +10174,7 @@ MonoBehaviour:
   AbilityPermitted: 1
   BlockingMovementStates: 
   BlockingConditionStates: 
+  PreventJumpInButtonActivatedZone: 1
   ButtonActivatedZone: {fileID: 0}
 --- !u!114 &114530058247276760
 MonoBehaviour:
@@ -10287,10 +10290,12 @@ MonoBehaviour:
   MaximumHealth: 30
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
-  ImmuneToKnockback: 0
   DamageMMFeedbacks: {fileID: 5423255612875023378}
   FeedbackIsProportionalToDamage: 0
   PreventTakeSelfDamage: 0
+  ImmuneToKnockback: 0
+  ImmuneToKnockbackIfZeroDamage: 0
+  KnockbackForceMultiplier: 1
   DestroyOnDeath: 0
   DelayBeforeDestruction: 0
   PointsWhenDestroyed: 0
@@ -10308,6 +10313,7 @@ MonoBehaviour:
   ColorMaterialPropertyName: _Color
   UseMaterialPropertyBlocks: 0
   MasterHealth: {fileID: 0}
+  TargetDamageResistanceProcessor: {fileID: 0}
   TargetAnimator: {fileID: 0}
   DisableAnimatorLogs: 1
 --- !u!114 &114499223069276626
@@ -15464,10 +15470,14 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
   DurationMultiplier: 1
   DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
   CooldownDuration: 0
   InitialDelay: 0
+  CanPlay: 1
   CanPlayWhileAlreadyPlaying: 1
   ChanceToPlay: 100
   FeedbacksIntensity: 1
@@ -15673,10 +15683,14 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
   DurationMultiplier: 1
   DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
   CooldownDuration: 0
   InitialDelay: 0
+  CanPlay: 1
   CanPlayWhileAlreadyPlaying: 1
   ChanceToPlay: 100
   FeedbacksIntensity: 1
@@ -15972,10 +15986,14 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
   DurationMultiplier: 1
   DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
   CooldownDuration: 0
   InitialDelay: 0
+  CanPlay: 1
   CanPlayWhileAlreadyPlaying: 1
   ChanceToPlay: 100
   FeedbacksIntensity: 1
@@ -16449,10 +16467,14 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
   DurationMultiplier: 1
   DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
   CooldownDuration: 0
   InitialDelay: 0
+  CanPlay: 1
   CanPlayWhileAlreadyPlaying: 1
   ChanceToPlay: 100
   FeedbacksIntensity: 1
@@ -16754,10 +16776,14 @@ MonoBehaviour:
   AutoChangeDirectionOnEnd: 0
   AutoPlayOnStart: 0
   AutoPlayOnEnable: 0
+  ForceTimescaleMode: 0
+  ForcedTimescaleMode: 1
   DurationMultiplier: 1
   DisplayFullDurationDetails: 0
+  PlayerTimescaleMode: 1
   CooldownDuration: 0
   InitialDelay: 0
+  CanPlay: 1
   CanPlayWhileAlreadyPlaying: 1
   ChanceToPlay: 100
   FeedbacksIntensity: 1
