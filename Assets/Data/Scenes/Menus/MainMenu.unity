@@ -1783,6 +1783,7 @@ MonoBehaviour:
   CurrentCheckpoint: {fileID: 0}
   PointsOfEntry: []
   IntroFadeDuration: 0.1
+  SpawnDelay: 0
   OutroFadeDuration: 0.1
   FaderID: 0
   FadeCurve:
@@ -3594,14 +3595,14 @@ MonoBehaviour:
   m_GameObject: {fileID: 181684222}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: f0e083be932b32b419bbca7f263841f9, type: 2}
-  isGlobal: 1
+  m_IsGlobal: 1
+  priority: 0
   blendDistance: 0
   weight: 1
-  priority: 0
+  sharedProfile: {fileID: 11400000, guid: f61912b4c397649479888ea73a0ded43, type: 2}
 --- !u!1 &215347758
 GameObject:
   m_ObjectHideFlags: 0
@@ -4442,6 +4443,7 @@ GameObject:
   - component: {fileID: 264282847}
   - component: {fileID: 264282846}
   - component: {fileID: 264282845}
+  - component: {fileID: 264282853}
   m_Layer: 0
   m_Name: PostProcessing
   m_TagString: Untagged
@@ -4496,6 +4498,7 @@ MonoBehaviour:
   Channel: 0
   ShakeDuration: 0.2
   PlayOnAwake: 0
+  PermanentShake: 0
   Interruptible: 1
   AlwaysResetTargetValuesAfterShake: 0
   CooldownBetweenShakes: 0
@@ -4588,6 +4591,7 @@ MonoBehaviour:
   Channel: 0
   ShakeDuration: 0.2
   PlayOnAwake: 0
+  PermanentShake: 0
   Interruptible: 1
   AlwaysResetTargetValuesAfterShake: 0
   CooldownBetweenShakes: 0
@@ -4645,6 +4649,7 @@ MonoBehaviour:
   Channel: 0
   ShakeDuration: 1
   PlayOnAwake: 0
+  PermanentShake: 0
   Interruptible: 1
   AlwaysResetTargetValuesAfterShake: 0
   CooldownBetweenShakes: 0
@@ -4807,6 +4812,7 @@ MonoBehaviour:
   Channel: 0
   ShakeDuration: 0.2
   PlayOnAwake: 0
+  PermanentShake: 0
   Interruptible: 1
   AlwaysResetTargetValuesAfterShake: 0
   CooldownBetweenShakes: 0
@@ -4934,6 +4940,7 @@ MonoBehaviour:
   Channel: 0
   ShakeDuration: 0.2
   PlayOnAwake: 0
+  PermanentShake: 0
   Interruptible: 1
   AlwaysResetTargetValuesAfterShake: 0
   CooldownBetweenShakes: 0
@@ -4976,6 +4983,52 @@ MonoBehaviour:
     m_RotationOrder: 4
   RemapIntensityZero: 0
   RemapIntensityOne: 1
+  InterpolateColor: 0
+  ColorCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.05
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 0.95
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RemapColorZero: 0
+  RemapColorOne: 1
+  TargetColor: {r: 1, g: 0, b: 0, a: 1}
 --- !u!114 &264282852
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4993,6 +5046,23 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   priority: 0
+--- !u!114 &264282853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 264282843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 172515602e62fb746b5d573b38a5fe58, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IsGlobal: 1
+  priority: 0
+  blendDistance: 0
+  weight: 1
+  sharedProfile: {fileID: 11400000, guid: 34d76d76d75f7984593079f7dfff75b4, type: 2}
 --- !u!1 &274694166
 GameObject:
   m_ObjectHideFlags: 0
@@ -8733,7 +8803,7 @@ PrefabInstance:
     - target: {fileID: 224667010185643770, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 200.3
+      value: 200.29999
       objectReference: {fileID: 0}
     - target: {fileID: 224810738532746492, guid: dddb870645bdee94092fff3b5a85a34b,
         type: 3}
@@ -11058,6 +11128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aba4d91aba2b904b86f231d7b44df48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InitializationMode: 0
   Label: 
   Mode: 1
   MaximumDurationInADirection: 8
@@ -11081,7 +11152,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec89e4158bf96841b9bc830fc5385ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BrainActive: 1
   Owner: {fileID: 0}
   States:
   - StateName: MoveRandomly
@@ -11093,6 +11163,9 @@ MonoBehaviour:
   TimeInThisState: 0
   Target: {fileID: 0}
   _lastKnownTargetPosition: {x: 0, y: 0, z: 0}
+  BrainActive: 1
+  ResetBrainOnStart: 1
+  ResetBrainOnEnable: 0
   ActionsFrequency: 0.5
   DecisionFrequency: 10
   RandomizeFrequencies: 0
@@ -11243,9 +11316,7 @@ MonoBehaviour:
   MinimumGroundedDistance: 0.2
   GroundedComputationMode: 1
   GroundNormalHeightThreshold: 0.1
-  AllowPhysicsInteractions: 1
   ImpactFalloff: 5
-  PushPower: 50
   MaximumFallSpeed: 40
   SlopeSpeedMultiplier:
     serializedVersion: 2
@@ -12157,6 +12228,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aba4d91aba2b904b86f231d7b44df48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InitializationMode: 0
   Label: 
   Mode: 1
   MaximumDurationInADirection: 8
@@ -12180,7 +12252,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec89e4158bf96841b9bc830fc5385ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BrainActive: 1
   Owner: {fileID: 0}
   States:
   - StateName: MoveRandomly
@@ -12192,6 +12263,9 @@ MonoBehaviour:
   TimeInThisState: 0
   Target: {fileID: 0}
   _lastKnownTargetPosition: {x: 0, y: 0, z: 0}
+  BrainActive: 1
+  ResetBrainOnStart: 1
+  ResetBrainOnEnable: 0
   ActionsFrequency: 0.5
   DecisionFrequency: 10
   RandomizeFrequencies: 0
@@ -12342,9 +12416,7 @@ MonoBehaviour:
   MinimumGroundedDistance: 0.2
   GroundedComputationMode: 1
   GroundNormalHeightThreshold: 0.1
-  AllowPhysicsInteractions: 1
   ImpactFalloff: 5
-  PushPower: 50
   MaximumFallSpeed: 40
   SlopeSpeedMultiplier:
     serializedVersion: 2
@@ -23614,8 +23686,8 @@ GameObject:
   - component: {fileID: 1564718025}
   - component: {fileID: 1564718032}
   - component: {fileID: 1564718031}
-  - component: {fileID: 1564718028}
   - component: {fileID: 1564718027}
+  - component: {fileID: 1564718033}
   m_Layer: 10
   m_Name: MainCamera
   m_TagString: MainCamera
@@ -23673,66 +23745,6 @@ MonoBehaviour:
   m_CameraActivatedEvent:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &1564718028
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1564718024}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 1564718025}
-  volumeLayer:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  stopNaNPropagation: 1
-  finalBlitToCameraTarget: 0
-  antialiasingMode: 1
-  temporalAntialiasing:
-    jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
-  subpixelMorphologicalAntialiasing:
-    quality: 2
-  fastApproximateAntialiasing:
-    fastMode: 0
-    keepAlpha: 0
-  fog:
-    enabled: 1
-    excludeSkybox: 1
-  debugLayer:
-    lightMeter:
-      width: 512
-      height: 256
-      showCurves: 1
-    histogram:
-      width: 512
-      height: 256
-      channel: 3
-    waveform:
-      exposure: 0.12
-      height: 256
-    vectorscope:
-      size: 256
-      exposure: 0.12
-    overlaySettings:
-      linearDepth: 0
-      motionColorIntensity: 4
-      motionGridSize: 64
-      colorBlindnessType: 0
-      colorBlindnessStrength: 1
-  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
-  breakBeforeColorGrading: 0
-  m_BeforeTransparentBundles: []
-  m_BeforeStackBundles: []
-  m_AfterStackBundles: []
 --- !u!124 &1564718031
 Behaviour:
   m_ObjectHideFlags: 0
@@ -23784,6 +23796,39 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1564718033
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1564718024}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_VolumeTrigger: {fileID: 1564718025}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 1
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1567443395
 GameObject:
   m_ObjectHideFlags: 0
@@ -28551,57 +28596,30 @@ MonoBehaviour:
   m_GameObject: {fileID: 1896010356}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  volumeTrigger: {fileID: 1896010361}
-  volumeLayer:
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
     serializedVersion: 2
     m_Bits: 2147483647
-  stopNaNPropagation: 1
-  finalBlitToCameraTarget: 0
-  antialiasingMode: 0
-  temporalAntialiasing:
-    jitterSpread: 0.75
-    sharpness: 0.25
-    stationaryBlending: 0.95
-    motionBlending: 0.85
-  subpixelMorphologicalAntialiasing:
-    quality: 2
-  fastApproximateAntialiasing:
-    fastMode: 0
-    keepAlpha: 0
-  fog:
-    enabled: 1
-    excludeSkybox: 1
-  debugLayer:
-    lightMeter:
-      width: 512
-      height: 256
-      showCurves: 1
-    histogram:
-      width: 512
-      height: 256
-      channel: 3
-    waveform:
-      exposure: 0.12
-      height: 256
-    vectorscope:
-      size: 256
-      exposure: 0.12
-    overlaySettings:
-      linearDepth: 0
-      motionColorIntensity: 4
-      motionGridSize: 64
-      colorBlindnessType: 0
-      colorBlindnessStrength: 1
-  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
-  m_ShowToolkit: 0
-  m_ShowCustomSorter: 0
-  breakBeforeColorGrading: 0
-  m_BeforeTransparentBundles: []
-  m_BeforeStackBundles: []
-  m_AfterStackBundles: []
+  m_VolumeTrigger: {fileID: 1896010361}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 1
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 1
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
 --- !u!1 &1899293739
 GameObject:
   m_ObjectHideFlags: 0
@@ -30322,6 +30340,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aba4d91aba2b904b86f231d7b44df48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InitializationMode: 0
   Label: 
   Mode: 1
   MaximumDurationInADirection: 8
@@ -30345,7 +30364,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec89e4158bf96841b9bc830fc5385ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BrainActive: 1
   Owner: {fileID: 0}
   States:
   - StateName: MoveRandomly
@@ -30357,6 +30375,9 @@ MonoBehaviour:
   TimeInThisState: 0
   Target: {fileID: 0}
   _lastKnownTargetPosition: {x: 0, y: 0, z: 0}
+  BrainActive: 1
+  ResetBrainOnStart: 1
+  ResetBrainOnEnable: 0
   ActionsFrequency: 0.5
   DecisionFrequency: 10
   RandomizeFrequencies: 0
@@ -30507,9 +30528,7 @@ MonoBehaviour:
   MinimumGroundedDistance: 0.2
   GroundedComputationMode: 1
   GroundNormalHeightThreshold: 0.1
-  AllowPhysicsInteractions: 1
   ImpactFalloff: 5
-  PushPower: 50
   MaximumFallSpeed: 40
   SlopeSpeedMultiplier:
     serializedVersion: 2
@@ -32675,6 +32694,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3aba4d91aba2b904b86f231d7b44df48, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  InitializationMode: 0
   Label: 
   Mode: 1
   MaximumDurationInADirection: 8
@@ -32698,7 +32718,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eec89e4158bf96841b9bc830fc5385ca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BrainActive: 1
   Owner: {fileID: 0}
   States:
   - StateName: MoveRandomly
@@ -32710,6 +32729,9 @@ MonoBehaviour:
   TimeInThisState: 0
   Target: {fileID: 0}
   _lastKnownTargetPosition: {x: 0, y: 0, z: 0}
+  BrainActive: 1
+  ResetBrainOnStart: 1
+  ResetBrainOnEnable: 0
   ActionsFrequency: 0.5
   DecisionFrequency: 10
   RandomizeFrequencies: 0
@@ -33000,9 +33022,7 @@ MonoBehaviour:
   MinimumGroundedDistance: 0.2
   GroundedComputationMode: 1
   GroundNormalHeightThreshold: 0.1
-  AllowPhysicsInteractions: 1
   ImpactFalloff: 5
-  PushPower: 50
   MaximumFallSpeed: 40
   SlopeSpeedMultiplier:
     serializedVersion: 2
