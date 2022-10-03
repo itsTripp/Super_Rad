@@ -41283,9 +41283,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6666530431059863973, guid: d73aa2d3898a69541852a65f3a8e14e0,
+        type: 3}
+      propertyPath: m_IsGlobal
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1299434778742412, guid: d73aa2d3898a69541852a65f3a8e14e0, type: 3}
       propertyPath: m_Name
       value: KoalaCameras --------------------------------------------------------
+      objectReference: {fileID: 0}
+    - target: {fileID: 1627987776410232, guid: d73aa2d3898a69541852a65f3a8e14e0, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4229352479014310, guid: d73aa2d3898a69541852a65f3a8e14e0, type: 3}
       propertyPath: m_LocalPosition.x
@@ -41354,6 +41363,16 @@ PrefabInstance:
     - target: {fileID: 4949070541713388, guid: d73aa2d3898a69541852a65f3a8e14e0, type: 3}
       propertyPath: m_LocalPosition.z
       value: -100
+      objectReference: {fileID: 0}
+    - target: {fileID: 20030228102125408, guid: d73aa2d3898a69541852a65f3a8e14e0,
+        type: 3}
+      propertyPath: orthographic size
+      value: 7.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 114040472965318270, guid: d73aa2d3898a69541852a65f3a8e14e0,
+        type: 3}
+      propertyPath: FollowsAPlayer
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 224001197845738650, guid: d73aa2d3898a69541852a65f3a8e14e0,
         type: 3}
@@ -72359,6 +72378,25 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &2047680583 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4143879649782153219, guid: d73aa2d3898a69541852a65f3a8e14e0,
+    type: 3}
+  m_PrefabInstance: {fileID: 1029167277}
+  m_PrefabAsset: {fileID: 0}
+--- !u!65 &2047680592
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2047680583}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 66.23379, y: 27.284605, z: 1}
+  m_Center: {x: 36.164204, y: -30.878849, z: 0}
 --- !u!1 &2064281420
 GameObject:
   m_ObjectHideFlags: 0
