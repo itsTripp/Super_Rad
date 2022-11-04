@@ -43,7 +43,7 @@ namespace MoreMountains.TopDownEngine
 			if (state)
 			{
 				_cinemachineCameraController.FollowsAPlayer = true;
-				_cinemachineCameraController.StartFollowing();
+				//_cinemachineCameraController.StartFollowing();
 			}
 			else
 			{
