@@ -70,7 +70,7 @@ namespace MoreMountains.TopDownEngine
 			if (!FollowsAPlayer) { return; }
 			FollowsPlayer = true;
 			#if MM_CINEMACHINE
-			//_virtualCamera.Follow = TargetCharacter.CameraTarget.transform;
+			_virtualCamera.Follow = TargetCharacter.CameraTarget.transform;
 			_virtualCamera.enabled = true;
 			#endif
 		}

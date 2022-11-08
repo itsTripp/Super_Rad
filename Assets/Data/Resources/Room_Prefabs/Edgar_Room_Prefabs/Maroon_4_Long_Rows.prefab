@@ -30032,7 +30032,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_ConfineMode: 1
-  m_BoundingVolume: {fileID: 5303278445334087172}
+  m_BoundingVolume: {fileID: 0}
   m_BoundingShape2D: {fileID: 0}
   m_ConfineScreenEdges: 1
   m_Damping: 0
@@ -30190,9 +30190,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mode: 0
-  VirtualCamera: {fileID: 0}
-  Confiner: {fileID: 0}
-  CinemachineCameraConfiner: {fileID: 0}
+  VirtualCamera: {fileID: 6969276399418050284}
+  Confiner: {fileID: 5303278445334087172}
+  CinemachineCameraConfiner: {fileID: 4624458567136934559}
   ResizeConfinerAutomatically: 1
   AutoDetectFirstRoomOnStart: 1
   RoomDepth: 100
@@ -55375,7 +55375,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &3605378327254219074
 Transform:
   m_ObjectHideFlags: 0
