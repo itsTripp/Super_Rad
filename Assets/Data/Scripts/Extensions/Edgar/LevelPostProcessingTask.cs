@@ -8,8 +8,6 @@ using Cinemachine;
     public class LevelPostProcessingTask : DungeonGeneratorPostProcessingComponentGrid2D
     {
     public Transform InitialSpawn;
-    public Camera mainCamera;
-    public CinemachineVirtualCamera vCam;
         public override void Run(DungeonGeneratorLevelGrid2D level)
         {
             SetSpawnPosition(level);
@@ -38,7 +36,5 @@ using Cinemachine;
             // Move the player to the spawn position
            // var player = GameObject.FindWithTag("Player");
             InitialSpawn.transform.position = spawnPosition.position;
-        vCam = GameObject.Find("Grid/Rooms/Entrance - RedBrick_Base_Room/Cinemachine_Zone/vCam").GetComponent<CinemachineVirtualCamera>();
-        mainCamera.transform.position = vCam.transform.position;
         }
     }

@@ -30366,7 +30366,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Mode: 0
-  CameraStartsActive: 1
+  CameraStartsActive: 0
   VirtualCamera: {fileID: 6969276399418050284}
   EnabledPriority: 10
   DisabledPriority: 0
