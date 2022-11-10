@@ -8,9 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/TopDownEngine/Demos/StartScreen/StartScreen.unity
     guid: 52360e1567e3fee418407abdfd132d73
-  - enabled: 1
+  - enabled: 0
     path: Assets/TopDownEngine/ThirdParty/MoreMountains/MMTools/Tools/MMSceneLoading/LoadingScreens/LoadingScreen.unity
     guid: 888394d52616e5e42b3b54c3f2bbd3eb
+  - enabled: 1
+    path: Assets/Data/Scenes/Menus/SuperRad_LoadingScreen.unity
+    guid: 4ad37eb5060ba7a4f84e65a4b91623ea
   - enabled: 1
     path: Assets/TopDownEngine/Demos/LevelSelection/LevelSelection.unity
     guid: f991cbe75cb701b43baec351a60a630a

@@ -82,8 +82,8 @@ MonoBehaviour:
   - {fileID: 1389538430663342672}
   - {fileID: 658508515480166650}
   EditorData:
-    PanOffset: {x: -41, y: 18}
-    Zoom: 1
+    PanOffset: {x: 283.02823, y: 33.74424}
+    Zoom: 0.49038437
   RoomType: LevelRoom
   ConnectionType: LevelConnection
   IsDirected: 0
