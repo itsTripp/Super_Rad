@@ -10026,6 +10026,7 @@ GameObject:
   - component: {fileID: 1107813884440659056}
   - component: {fileID: 1107813884440659059}
   - component: {fileID: 2406057620816799190}
+  - component: {fileID: -2332578167891622480}
   m_Layer: 13
   m_Name: RandomWalk_ContactDMG_RadialShoot
   m_TagString: Enemy
@@ -10314,8 +10315,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 0
   Invulnerable: 0
-  InitialHealth: 30
-  MaximumHealth: 30
+  InitialHealth: 3
+  MaximumHealth: 3
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 1107813884669295630}
@@ -10865,6 +10866,23 @@ MonoBehaviour:
   HitAnythingEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-2332578167891622480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1107813884440659058}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 794539ff210c56d4d8fe1b215440a6c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnableDistance: 20
+  DisableDistance: 20
+  DisabledByManager: 0
+  DebugProximityManager: {fileID: 0}
+  AddButton: 0
 --- !u!1 &1107813884643342809
 GameObject:
   m_ObjectHideFlags: 0

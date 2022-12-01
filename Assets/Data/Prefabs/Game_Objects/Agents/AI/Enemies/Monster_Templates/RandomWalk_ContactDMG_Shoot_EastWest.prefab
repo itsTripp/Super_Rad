@@ -62,6 +62,7 @@ GameObject:
   - component: {fileID: 1358092805498550782}
   - component: {fileID: 1358092805498550781}
   - component: {fileID: 4387451914711586904}
+  - component: {fileID: -8114151053883670835}
   m_Layer: 13
   m_Name: RandomWalk_ContactDMG_Shoot_EastWest
   m_TagString: Enemy
@@ -350,8 +351,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 0
   Invulnerable: 0
-  InitialHealth: 30
-  MaximumHealth: 30
+  InitialHealth: 3
+  MaximumHealth: 3
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 1358092805710315904}
@@ -901,6 +902,23 @@ MonoBehaviour:
   HitAnythingEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &-8114151053883670835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1358092805498550780}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 794539ff210c56d4d8fe1b215440a6c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnableDistance: 20
+  DisableDistance: 20
+  DisabledByManager: 0
+  DebugProximityManager: {fileID: 0}
+  AddButton: 0
 --- !u!1 &1358092805710315911
 GameObject:
   m_ObjectHideFlags: 0

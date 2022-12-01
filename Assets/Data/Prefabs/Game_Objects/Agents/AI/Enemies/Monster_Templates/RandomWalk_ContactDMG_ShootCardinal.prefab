@@ -10317,6 +10317,7 @@ GameObject:
   - component: {fileID: 9128200640368480234}
   - component: {fileID: 9128200640368480233}
   - component: {fileID: 5806921597626674764}
+  - component: {fileID: 4549029030416375910}
   m_Layer: 13
   m_Name: RandomWalk_ContactDMG_ShootCardinal
   m_TagString: Enemy
@@ -10605,8 +10606,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 0
   Invulnerable: 0
-  InitialHealth: 30
-  MaximumHealth: 30
+  InitialHealth: 2
+  MaximumHealth: 2
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 9128200640039335828}
@@ -11156,3 +11157,20 @@ MonoBehaviour:
   HitAnythingEvent:
     m_PersistentCalls:
       m_Calls: []
+--- !u!114 &4549029030416375910
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9128200640368480232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 794539ff210c56d4d8fe1b215440a6c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnableDistance: 20
+  DisableDistance: 20
+  DisabledByManager: 0
+  DebugProximityManager: {fileID: 0}
+  AddButton: 0

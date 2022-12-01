@@ -9828,6 +9828,7 @@ GameObject:
   - component: {fileID: 114171358364461030}
   - component: {fileID: 114499223069276626}
   - component: {fileID: 2745327913415687074}
+  - component: {fileID: -6812663697195744161}
   m_Layer: 10
   m_Name: Hero
   m_TagString: Player
@@ -10362,6 +10363,26 @@ MonoBehaviour:
   AutoEquipFirstWeapon: 1
   WeaponChangeSfx: {fileID: 0}
   WeaponChangeFeedbacks: {fileID: 0}
+--- !u!114 &-6812663697195744161
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1498750440386690}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b1c0fc1f870c9e4b908bfb73e021bf1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  AbilityStartSfx: {fileID: 0}
+  AbilityInProgressSfx: {fileID: 0}
+  AbilityStopSfx: {fileID: 0}
+  AbilityStartFeedbacks: {fileID: 0}
+  AbilityStopFeedbacks: {fileID: 0}
+  AbilityPermitted: 1
+  BlockingMovementStates: 
+  BlockingConditionStates: 
 --- !u!1 &1561075265052736
 GameObject:
   m_ObjectHideFlags: 0

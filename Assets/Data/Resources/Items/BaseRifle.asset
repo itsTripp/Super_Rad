@@ -24,6 +24,13 @@ MonoBehaviour:
   Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
+  DisplayProperties:
+    DisplayEquipUseButton: 1
+    DisplayMoveButton: 1
+    DisplayDropButton: 1
+    DisplayEquipButton: 1
+    DisplayUseButton: 1
+    DisplayUnequipButton: 1
   Quantity: 1
   ItemName: baseRifle
   ShortDescription: PewPew!
@@ -81,5 +88,5 @@ MonoBehaviour:
   UseDefaultSoundsIfNull: 1
   EquippableWeapon: {fileID: 2902175359844589548, guid: 30a8d8e9756a91a4f8fa56d5e2c1b55f,
     type: 3}
-  AutoEquipMode: 2
+  AutoEquipMode: 1
   HandleWeaponID: 1

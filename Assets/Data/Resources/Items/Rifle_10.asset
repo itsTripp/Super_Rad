@@ -24,6 +24,13 @@ MonoBehaviour:
   Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
+  DisplayProperties:
+    DisplayEquipUseButton: 1
+    DisplayMoveButton: 1
+    DisplayDropButton: 1
+    DisplayEquipButton: 1
+    DisplayUseButton: 1
+    DisplayUnequipButton: 1
   Quantity: 1
   ItemName: Rifle
   ShortDescription: Pew..Pew
@@ -81,5 +88,5 @@ MonoBehaviour:
   UseDefaultSoundsIfNull: 1
   EquippableWeapon: {fileID: 9204485366553225351, guid: 97c189c74d8f6cb43a0569cb4b0d20bb,
     type: 3}
-  AutoEquipMode: 2
+  AutoEquipMode: 1
   HandleWeaponID: 1

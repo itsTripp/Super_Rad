@@ -5256,6 +5256,7 @@ GameObject:
   - component: {fileID: 183294901}
   - component: {fileID: 183294925}
   - component: {fileID: 183294926}
+  - component: {fileID: 7062524086231318951}
   m_Layer: 13
   m_Name: Walk_ContactDMG
   m_TagString: Enemy
@@ -5544,8 +5545,8 @@ MonoBehaviour:
   Model: {fileID: 0}
   CurrentHealth: 0
   Invulnerable: 0
-  InitialHealth: 30
-  MaximumHealth: 30
+  InitialHealth: 1
+  MaximumHealth: 1
   ResetHealthOnEnable: 1
   ImmuneToDamage: 0
   DamageMMFeedbacks: {fileID: 4929961186323784227}
@@ -6188,6 +6189,23 @@ MonoBehaviour:
   NextWaypointIndex: 0
   NextWaypointDirection: {x: 0, y: 0, z: 0}
   DistanceToNextWaypoint: 0
+--- !u!114 &7062524086231318951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3388814685092156319}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 794539ff210c56d4d8fe1b215440a6c7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EnableDistance: 20
+  DisableDistance: 20
+  DisabledByManager: 0
+  DebugProximityManager: {fileID: 0}
+  AddButton: 0
 --- !u!1 &3388873179586182613
 GameObject:
   m_ObjectHideFlags: 0

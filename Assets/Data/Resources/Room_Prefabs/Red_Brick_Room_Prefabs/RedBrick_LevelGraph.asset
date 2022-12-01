@@ -30,6 +30,22 @@ MonoBehaviour:
   Position: {x: 384, y: 144}
   Type: 0
   Outside: 0
+--- !u!114 &-2180312870587693662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4fbc583e9a402ad49a2ed188ece54e5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  From: {fileID: 4308910924298979121}
+  To: {fileID: 3765549703020887446}
+  RoomTemplates: []
+  IsLocked: 0
 --- !u!114 &-1843415385249444838
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -66,6 +82,7 @@ MonoBehaviour:
   - {fileID: 7968146327230853156}
   - {fileID: 2926859881951191019}
   - {fileID: 882796451082381571}
+  - {fileID: -2180312870587693662}
   CorridorIndividualRoomTemplates:
   - {fileID: 7634578264215386183, guid: bdcd884a619274044bae826ff9d40dbb, type: 3}
   - {fileID: 7634578264215386183, guid: 7f0b3c96bbee6b049a596a9862fde66e, type: 3}
@@ -81,9 +98,10 @@ MonoBehaviour:
   - {fileID: 2655970335611446599}
   - {fileID: 1389538430663342672}
   - {fileID: 658508515480166650}
+  - {fileID: 4308910924298979121}
   EditorData:
-    PanOffset: {x: 283.02823, y: 33.74424}
-    Zoom: 0.49038437
+    PanOffset: {x: 124.78095, y: 334.44125}
+    Zoom: 0.66919667
   RoomType: LevelRoom
   ConnectionType: LevelConnection
   IsDirected: 0
@@ -208,6 +226,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Position: {x: 512, y: 144}
   Type: 0
+  Outside: 0
+--- !u!114 &4308910924298979121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9fb0d93dd0cc324f98c5bdbed82eab4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Position: {x: 512, y: 64}
+  Type: 7
   Outside: 0
 --- !u!114 &6984616100274585978
 MonoBehaviour:

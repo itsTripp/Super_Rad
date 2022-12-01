@@ -24,6 +24,13 @@ MonoBehaviour:
   Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
+  DisplayProperties:
+    DisplayEquipUseButton: 1
+    DisplayMoveButton: 1
+    DisplayDropButton: 1
+    DisplayEquipButton: 1
+    DisplayUseButton: 1
+    DisplayUnequipButton: 1
   Quantity: 1
   ItemName: Pistol
   ShortDescription: Just a basic pistol.
@@ -81,5 +88,5 @@ MonoBehaviour:
   UseDefaultSoundsIfNull: 1
   EquippableWeapon: {fileID: 114552424271636822, guid: 5fbc6ec4a148a354e84dc9a748d2e789,
     type: 3}
-  AutoEquipMode: 2
+  AutoEquipMode: 1
   HandleWeaponID: 1

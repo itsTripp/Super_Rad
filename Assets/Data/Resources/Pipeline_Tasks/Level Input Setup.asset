@@ -23,10 +23,11 @@ MonoBehaviour:
     TeleportRoomTemplates: []
     TreasureRoomTemplates: []
     EntranceRoomTemplates:
-    - {fileID: 6376168803473530873, guid: 2acdf838c79541241906838340798feb, type: 3}
+    - {fileID: 6376168803473530873, guid: 8d7ecdb00afb9034a840763d4ddc83b1, type: 3}
     ExitRoomTemplates: []
     CorridorRoomTemplates:
     - {fileID: 7634578264215386183, guid: 7f0b3c96bbee6b049a596a9862fde66e, type: 3}
     - {fileID: 7634578264215386183, guid: bdcd884a619274044bae826ff9d40dbb, type: 3}
     SecretRoomTemplates: []
-    BossRoomTemplates: []
+    BossRoomTemplates:
+    - {fileID: 6376168803473530873, guid: f14183666ff9a034099a4646233ac5dd, type: 3}

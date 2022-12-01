@@ -17,12 +17,12 @@ MonoBehaviour:
     - Loot: {fileID: 2211273085931906838, guid: 24106f77e8a57b64999e3844ad9d6c40,
         type: 3}
       Weight: 2
-      ChancePercentage: 20
+      ChancePercentage: 10
     - Loot: {fileID: 2211273085931906838, guid: b7fbb07ea21f0744f917f8fc82b167e0,
         type: 3}
       Weight: 2
-      ChancePercentage: 20
+      ChancePercentage: 10
     - Loot: {fileID: 0}
       Weight: 6
-      ChancePercentage: 60
+      ChancePercentage: 80
     WeightsTotal: 10

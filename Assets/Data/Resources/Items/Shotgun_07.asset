@@ -24,6 +24,13 @@ MonoBehaviour:
   Droppable: 1
   CanMoveObject: 1
   CanSwapObject: 1
+  DisplayProperties:
+    DisplayEquipUseButton: 1
+    DisplayMoveButton: 1
+    DisplayDropButton: 1
+    DisplayEquipButton: 1
+    DisplayUseButton: 1
+    DisplayUnequipButton: 1
   Quantity: 1
   ItemName: Shotgun
   ShortDescription: This is my boomstick.
@@ -81,5 +88,5 @@ MonoBehaviour:
   UseDefaultSoundsIfNull: 1
   EquippableWeapon: {fileID: 6164981365623092479, guid: 3268d10c10215ce44902c2c129398e75,
     type: 3}
-  AutoEquipMode: 2
+  AutoEquipMode: 1
   HandleWeaponID: 1
