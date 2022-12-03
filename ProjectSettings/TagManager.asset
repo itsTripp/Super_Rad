@@ -17,7 +17,7 @@ TagManager:
   - Water
   - UI
   - 
-  - Destructible_Props
+  - 
   - Obstacles
   - Ground
   - Player
@@ -33,7 +33,7 @@ TagManager:
   - Camera2
   - Camera3
   - Camera4
-  - StaticEnvironment
+  - 
   - 
   - 
   - 

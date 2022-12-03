@@ -66,8 +66,40 @@ MonoBehaviour:
   ForceTimescaleMode: 0
   ForcedTimescaleMode: 1
   DurationMultiplier: 1
+  RandomizeDuration: 0
+  RandomDurationMultiplier: {x: 0.5, y: 1.5}
   DisplayFullDurationDetails: 0
   PlayerTimescaleMode: 1
+  OnlyPlayIfWithinRange: 0
+  RangeCenter: {fileID: 0}
+  RangeDistance: 5
+  UseRangeFalloff: 0
+  RangeFalloff:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  RemapRangeFalloff: {x: 0, y: 1}
+  IgnoreRangeEvents: 0
   CooldownDuration: 0
   InitialDelay: 0
   CanPlay: 1
@@ -410,6 +442,7 @@ MonoBehaviour:
   MinPitch: 1
   MaxPitch: 1
   SfxAudioMixerGroup: {fileID: 0}
+  Priority: 128
 --- !u!114 &8073375808474018032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -559,6 +592,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   WeaponName: 
   WeaponCurrentlyActive: 1
+  InputAuthorized: 1
   TriggerMode: 0
   DelayBeforeUse: 0
   DelayBeforeUseReleaseInterruption: 1
@@ -621,7 +655,8 @@ MonoBehaviour:
   Spread: {x: 90, y: 0, z: 90}
   RotateWeaponOnSpread: 0
   RandomSpread: 0
-  SpawnPosition: {x: 43.3129, y: -21.558784, z: 0}
+  SpawnPosition: {x: 41.3329, y: -21.558784, z: 0}
+  ObjectPooler: {fileID: 0}
   SpawnFeedbacks: []
   TestShootButton: 0
 --- !u!114 &9163104189378203442
@@ -656,7 +691,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   AimControl: 4
-  RotationMode: 3
+  RotationMode: 1
   WeaponRotationSpeed: 0
   MinimumAngle: -180
   MaximumAngle: 180
@@ -674,15 +709,6 @@ MonoBehaviour:
   CameraTargetOffset: 0.3
   CameraTargetMaxDistance: 2
   CameraTargetSpeed: 5
-  MousePositionAction:
-    m_Name: Mouse Position
-    m_Type: 0
-    m_ExpectedControlType: 
-    m_Id: 6b680228-e12b-4e97-aca7-14eb9e2d5362
-    m_Processors: 
-    m_Interactions: 
-    m_SingletonActionBindings: []
-    m_Flags: 0
 --- !u!114 &9162990869332595874
 MonoBehaviour:
   m_ObjectHideFlags: 0
