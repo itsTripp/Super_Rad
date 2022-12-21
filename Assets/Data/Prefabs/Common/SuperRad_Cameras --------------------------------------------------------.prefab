@@ -9911,8 +9911,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7421314052964954504}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: RestartLevel
+        m_TargetAssemblyTypeName: MoreMountains.TopDownEngine.LevelSelector, MoreMountains.TopDownEngine
+        m_MethodName: GoToLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -10010,7 +10010,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 316ab92be1a09414daadf97f5d5d2a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: 
+  LevelName: ROOM_CREATING_SCENE
   DoNotUseLevelManager: 0
   DestroyPersistentCharacter: 0
 --- !u!114 &7421344800172041774
@@ -11975,7 +11975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7238975565598049042
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12191,7 +12191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7238575532562227038
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12845,7 +12845,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART LEVEL
+  m_Text: RESTART GAME
 --- !u!114 &7421676849510538700
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -13831,8 +13831,8 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls:
       - m_Target: {fileID: 7420988099042100274}
-        m_TargetAssemblyTypeName: 
-        m_MethodName: ReloadLevel
+        m_TargetAssemblyTypeName: MoreMountains.TopDownEngine.LevelSelector, MoreMountains.TopDownEngine
+        m_MethodName: GoToLevel
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -13930,7 +13930,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 316ab92be1a09414daadf97f5d5d2a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: 
+  LevelName: ROOM_CREATING_SCENE
   DoNotUseLevelManager: 0
   DestroyPersistentCharacter: 0
 --- !u!114 &7420948278151167432
@@ -17062,7 +17062,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: RESTART LEVEL
+  m_Text: RESTART GAME
 --- !u!114 &7418231356991447036
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19424,7 +19424,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7237670034183123758
 RectTransform:
   m_ObjectHideFlags: 0

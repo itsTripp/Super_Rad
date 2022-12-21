@@ -1,0 +1,16 @@
+{
+    "notes": [
+        {
+            "noteText": "",
+            "show": true,
+            "typeName": "UnityEngine.GameObject",
+            "GlobalObjectSerialization": "GlobalObjectId_V1-1-7054ccd775a237f4cbfaa98a4c8b30fd-7452791820241717194-0"
+        },
+        {
+            "noteText": "Will need to change the names of the scenes on the restart game buttons when I have a more final scene template",
+            "show": true,
+            "typeName": "UnityEngine.GameObject",
+            "GlobalObjectSerialization": "GlobalObjectId_V1-1-7054ccd775a237f4cbfaa98a4c8b30fd-7452937851676233616-0"
+        }
+    ]
+}
