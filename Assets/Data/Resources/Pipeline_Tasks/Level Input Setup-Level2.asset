@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bd1009e7300b9a14a8fb8e8176ba8eda, type: 3}
+  m_Name: Level Input Setup-Level2
+  m_EditorClassIdentifier: 
+  LevelGraph: {fileID: 11400000, guid: e0f4fe6982fdb5e44a91632d853c9033, type: 2}
+  RoomTemplates:
+    DefaultRoomTemplates:
+    - {fileID: 6376168803473530873, guid: f653f9d15e94c0c44bf393820fc100bf, type: 3}
+    - {fileID: 6376168803473530873, guid: a2d9db57757c5ed40896d73ea94855cb, type: 3}
+    - {fileID: 6376168803473530873, guid: 4e20c7328f10d0e40b32fb9a6647e141, type: 3}
+    - {fileID: 6376168803473530873, guid: cc11b493bd27f2443b01c2e231c2d1ad, type: 3}
+    - {fileID: 6376168803473530873, guid: 34f1ef9e8f2b3f3489c5584aa7433c22, type: 3}
+    TeleportRoomTemplates: []
+    TreasureRoomTemplates: []
+    EntranceRoomTemplates:
+    - {fileID: 6376168803473530873, guid: 43a201ed254ecfd45a435e52ef8992be, type: 3}
+    ExitRoomTemplates: []
+    CorridorRoomTemplates:
+    - {fileID: 7634578264215386183, guid: 7f0b3c96bbee6b049a596a9862fde66e, type: 3}
+    - {fileID: 7634578264215386183, guid: bdcd884a619274044bae826ff9d40dbb, type: 3}
+    SecretRoomTemplates: []
+    BossRoomTemplates:
+    - {fileID: 6376168803473530873, guid: f14183666ff9a034099a4646233ac5dd, type: 3}

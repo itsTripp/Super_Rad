@@ -9408,7 +9408,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 316ab92be1a09414daadf97f5d5d2a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: LevelSelection
+  LevelName: MainMenu
   DoNotUseLevelManager: 0
   DestroyPersistentCharacter: 0
 --- !u!1 &7452490714920007086
@@ -10105,7 +10105,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACK TO LEVEL SELECTION
+  m_Text: QUIT GAME!
 --- !u!114 &7418208914665411934
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11258,7 +11258,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 316ab92be1a09414daadf97f5d5d2a77, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LevelName: LevelSelection
+  LevelName: MainMenu
   DoNotUseLevelManager: 0
   DestroyPersistentCharacter: 0
 --- !u!1 &7452580552162191764
@@ -11975,7 +11975,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7238975565598049042
 RectTransform:
   m_ObjectHideFlags: 0
@@ -12191,7 +12191,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &7238575532562227038
 RectTransform:
   m_ObjectHideFlags: 0
@@ -15213,7 +15213,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   LevelName: 
   DoNotUseLevelManager: 0
-  DestroyPersistentCharacter: 0
+  DestroyPersistentCharacter: 1
 --- !u!1 &7453060677511568598
 GameObject:
   m_ObjectHideFlags: 0
@@ -17926,7 +17926,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: BACK TO LEVEL SELECTION
+  m_Text: QUIT GAME!
 --- !u!114 &7421758283213884158
 MonoBehaviour:
   m_ObjectHideFlags: 0
