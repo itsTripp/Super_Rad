@@ -10154,7 +10154,7 @@ MonoBehaviour:
   UseSecondaryAxisThresholdToShoot: 0
   ForceWeaponAimControl: 0
   ForcedWeaponAimControl: 1
-  BufferInput: 1
+  BufferInput: 0
   NewInputExtendsBuffer: 0
   MaximumBufferDuration: 0.25
   RequiresPerfectTile: 0
@@ -17033,7 +17033,7 @@ GameObject:
   - component: {fileID: 9076058244715581813}
   - component: {fileID: 707001498195442641}
   - component: {fileID: 4863766158602484249}
-  m_Layer: 10
+  m_Layer: 0
   m_Name: Magnetic_Enabler
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17085,7 +17085,7 @@ CircleCollider2D:
   m_Enabled: 1
   m_Density: 1
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.09309006, y: 0}

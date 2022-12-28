@@ -670,7 +670,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   TargetLayerMask:
     serializedVersion: 2
-    m_Bits: 1024
+    m_Bits: 1
   StartMagnetOnEnter: 1
   StopMagnetOnExit: 0
   MagneticTypeID: 0

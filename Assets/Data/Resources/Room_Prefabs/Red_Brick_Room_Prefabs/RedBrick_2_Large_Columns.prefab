@@ -416,7 +416,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy_Spawn_Point (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -8317,7 +8317,7 @@ Tilemap:
   - m_RefCount: 0
     m_Data: {r: 5.62784e-40, g: 5.62784e-40, b: 5.62784e-40, a: 5.62784e-40}
   - m_RefCount: 1
-    m_Data: {r: 0.7979821, g: 0.51002324, b: 0.5677762, a: 1}
+    m_Data: {r: 0.887044, g: 0.41312677, b: 0.5137004, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -8773,7 +8773,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy_Spawn_Point
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1

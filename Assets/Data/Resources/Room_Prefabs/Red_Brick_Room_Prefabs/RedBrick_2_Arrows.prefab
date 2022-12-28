@@ -577,7 +577,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy_Spawn_Point (2)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -628,7 +628,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy_Spawn_Point (1)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
@@ -1826,7 +1826,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy_Spawn_Point (4)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
@@ -4175,7 +4175,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy_Spawn_Point (3)
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
@@ -5491,9 +5491,9 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
-      m_TileColorIndex: 6
+      m_TileColorIndex: 7
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -5791,9 +5791,9 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
-      m_TileColorIndex: 6
+      m_TileColorIndex: 7
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -6061,9 +6061,9 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 1
-      m_TileSpriteIndex: 12
+      m_TileSpriteIndex: 10
       m_TileMatrixIndex: 0
-      m_TileColorIndex: 6
+      m_TileColorIndex: 7
       m_TileObjectToInstantiateIndex: 65535
       dummyAlignment: 0
       m_AllTileFlags: 1073741827
@@ -8518,11 +8518,11 @@ Tilemap:
     m_Data: {fileID: 1049169832, guid: 10e98da0ede86c849b7141b906079f13, type: 3}
   - m_RefCount: 21
     m_Data: {fileID: 1044266481, guid: 10e98da0ede86c849b7141b906079f13, type: 3}
-  - m_RefCount: 0
+  - m_RefCount: 3
     m_Data: {fileID: 0}
   - m_RefCount: 13
     m_Data: {fileID: -5910812, guid: 10e98da0ede86c849b7141b906079f13, type: 3}
-  - m_RefCount: 3
+  - m_RefCount: 0
     m_Data: {fileID: 0}
   - m_RefCount: 1
     m_Data: {fileID: -1897635604, guid: 10e98da0ede86c849b7141b906079f13, type: 3}
@@ -8562,10 +8562,10 @@ Tilemap:
     m_Data: {r: 6.2043e-40, g: 6.2043e-40, b: 6.2043e-40, a: 6.2043e-40}
   - m_RefCount: 0
     m_Data: {r: 9.67658e-40, g: 9.67658e-40, b: 9.67658e-40, a: 9.67658e-40}
-  - m_RefCount: 3
-    m_Data: {r: 0.7340642, g: 0.32181033, b: 0.35877052, a: 1}
   - m_RefCount: 0
-    m_Data: {r: 5.68863e-40, g: 5.68863e-40, b: 5.68863e-40, a: 5.68863e-40}
+    m_Data: {r: 6.9852e-41, g: 6.9852e-41, b: 6.9852e-41, a: 6.9852e-41}
+  - m_RefCount: 3
+    m_Data: {r: 0.97713417, g: 0.6496938, b: 0.7239376, a: 1}
   m_TileObjectToInstantiateArray: []
   m_AnimationFrameRate: 1
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9129,7 +9129,7 @@ GameObject:
   m_Layer: 0
   m_Name: Enemy_Spawn_Point
   m_TagString: Untagged
-  m_Icon: {fileID: 0}
+  m_Icon: {fileID: -5442936267250999957, guid: 0000000000000000d000000000000000, type: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
