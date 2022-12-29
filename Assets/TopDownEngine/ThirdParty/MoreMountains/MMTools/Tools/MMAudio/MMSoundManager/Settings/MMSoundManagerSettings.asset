@@ -23,22 +23,22 @@ MonoBehaviour:
     type: 2}
   MixerValuesMultiplier: 20
   Settings:
-    OverrideMixerSettings: 0
+    OverrideMixerSettings: 1
     MasterVolumeParameter: MasterVolume
     MusicVolumeParameter: MusicVolume
     SfxVolumeParameter: SfxVolume
     UIVolumeParameter: UiVolume
-    MasterVolume: 0.1
+    MasterVolume: 1
     MasterOn: 1
     MutedMasterVolume: 0
     MusicVolume: 0.01
     MusicOn: 1
     MutedMusicVolume: 0
-    SfxVolume: 0.0001
-    SfxOn: 0
+    SfxVolume: 0.015
+    SfxOn: 1
     MutedSfxVolume: 0
     UIVolume: 1
     UIOn: 1
     MutedUIVolume: 0
     AutoLoad: 1
-    AutoSave: 0
+    AutoSave: 1

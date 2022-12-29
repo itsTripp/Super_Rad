@@ -11,6 +11,12 @@
             "show": true,
             "typeName": "UnityEngine.GameObject",
             "GlobalObjectSerialization": "GlobalObjectId_V1-1-7054ccd775a237f4cbfaa98a4c8b30fd-7452937851676233616-0"
+        },
+        {
+            "noteText": "This is where the play button actually is.",
+            "show": true,
+            "typeName": "UnityEngine.GameObject",
+            "GlobalObjectSerialization": "GlobalObjectId_V1-2-dce9892f957e2bd42ab5038e63596b8c-437327554-0"
         }
     ]
 }
