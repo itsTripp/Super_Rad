@@ -409,6 +409,7 @@ GameObject:
   - component: {fileID: 7941738543644982153}
   - component: {fileID: 7941871599311696207}
   - component: {fileID: -1650144198407690163}
+  - component: {fileID: 1186342989856299761}
   m_Layer: 0
   m_Name: RocketLauncherAmmoPicker
   m_TagString: Untagged
@@ -496,8 +497,8 @@ MonoBehaviour:
   Item: {fileID: 11400000, guid: d6ff7970b8ffa864891ee3ff5202e837, type: 2}
   Quantity: 1
   RemainingQuantity: 1
-  PickableIfInventoryIsFull: 0
-  DisableObjectWhenDepleted: 0
+  PickableIfInventoryIsFull: 1
+  DisableObjectWhenDepleted: 1
 --- !u!114 &-1650144198407690163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -524,6 +525,22 @@ MonoBehaviour:
   CopyState: {fileID: 0}
   Target: {fileID: 0}
   FollowPosition: 0
+--- !u!114 &1186342989856299761
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8044601814107198597}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 053c75d6cf2fdcf44a92e2587f9ee7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _magnetic: {fileID: -1650144198407690163}
+  playerID: Player1
+  inventoryName: KoalaMainInventory
+  ammo: {fileID: 0}
 --- !u!1 &8044902103795101469
 GameObject:
   m_ObjectHideFlags: 0

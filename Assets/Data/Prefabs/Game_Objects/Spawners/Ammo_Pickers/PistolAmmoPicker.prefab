@@ -567,6 +567,7 @@ GameObject:
   - component: {fileID: 114751083595692408}
   - component: {fileID: 114736676895524488}
   - component: {fileID: -7709570861394954047}
+  - component: {fileID: -7603322371076050096}
   m_Layer: 0
   m_Name: PistolAmmoPicker
   m_TagString: Untagged
@@ -652,10 +653,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Item: {fileID: 11400000, guid: 5afca36974faa1342934aa87ab995747, type: 2}
-  Quantity: 25
+  Quantity: 100
   RemainingQuantity: 1
-  PickableIfInventoryIsFull: 0
-  DisableObjectWhenDepleted: 0
+  PickableIfInventoryIsFull: 1
+  DisableObjectWhenDepleted: 1
 --- !u!114 &-7709570861394954047
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -682,6 +683,22 @@ MonoBehaviour:
   CopyState: {fileID: 0}
   Target: {fileID: 0}
   FollowPosition: 0
+--- !u!114 &-7603322371076050096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1780350073829462}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 053c75d6cf2fdcf44a92e2587f9ee7e7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _magnetic: {fileID: -7709570861394954047}
+  playerID: Player1
+  inventoryName: KoalaMainInventory
+  ammo: {fileID: 2901965452287250930, guid: 978509d305836d746bd724e2c66d5754, type: 3}
 --- !u!1 &1786935067451312
 GameObject:
   m_ObjectHideFlags: 0

@@ -181,18 +181,11 @@ MonoBehaviour:
     - Loot: {fileID: 1780350073829462, guid: f6b3ca631f2848441afe252ebc8326c6, type: 3}
       Weight: 10
       ChancePercentage: 0
-    - Loot: {fileID: 8044601814107198597, guid: df2b2ef677e220440a4cd77400579e7b,
-        type: 3}
-      Weight: 10
-      ChancePercentage: 0
     - Loot: {fileID: 1780350073829462, guid: 88a7a57717079d34a85d33f7dc1a632f, type: 3}
       Weight: 10
       ChancePercentage: 0
     - Loot: {fileID: 1780350073829462, guid: d646a78a7a0d58b4e8a0ada3c112430b, type: 3}
       Weight: 10
-      ChancePercentage: 0
-    - Loot: {fileID: 0}
-      Weight: 50
       ChancePercentage: 0
     WeightsTotal: 0
   LootTableSO: {fileID: 0}
